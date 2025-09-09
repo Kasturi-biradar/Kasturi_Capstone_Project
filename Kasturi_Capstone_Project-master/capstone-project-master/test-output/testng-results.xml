@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-09T09:38:39 IST" name="Suite" finished-at="2025-09-09T09:39:12 IST" duration-ms="32633">
+    <groups>
+    </groups>
+    <test started-at="2025-09-09T09:38:39 IST" name="Test" finished-at="2025-09-09T09:39:12 IST" duration-ms="32633">
+      <class name="com.opencart.tests.LogoutTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.opencart.tests.LogoutTest@2362f559]" started-at="2025-09-09T09:39:02 IST" name="setup" finished-at="2025-09-09T09:39:04 IST" duration-ms="2357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opencart.tests.LogoutTest.testLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogout()[pri:5, instance:com.opencart.tests.LogoutTest@2362f559]" started-at="2025-09-09T09:39:04 IST" name="testLogout" finished-at="2025-09-09T09:39:07 IST" duration-ms="2825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.opencart.tests.LogoutTest@2362f559]" started-at="2025-09-09T09:39:07 IST" name="tearDown" finished-at="2025-09-09T09:39:07 IST" duration-ms="211" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogout status=SUCCESS method=LogoutTest.testLogout()[pri:5, instance:com.opencart.tests.LogoutTest@2362f559] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.tests.LogoutTest -->
+      <class name="com.opencart.tests.LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.opencart.tests.LoginTest@b2c9a9c]" started-at="2025-09-09T09:39:07 IST" name="setup" finished-at="2025-09-09T09:39:10 IST" duration-ms="2540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opencart.tests.LoginTest.testValidLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testValidLogin()[pri:2, instance:com.opencart.tests.LoginTest@b2c9a9c]" started-at="2025-09-09T09:39:10 IST" name="testValidLogin" finished-at="2025-09-09T09:39:12 IST" duration-ms="1634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.opencart.tests.LoginTest@b2c9a9c]" started-at="2025-09-09T09:39:12 IST" name="tearDown" finished-at="2025-09-09T09:39:12 IST" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=LoginTest.testValidLogin()[pri:2, instance:com.opencart.tests.LoginTest@b2c9a9c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.tests.LoginTest -->
+      <class name="com.opencart.tests.CheckoutTest">
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.opencart.tests.CheckoutTest@710f4dc7]" started-at="2025-09-09T09:38:38 IST" name="setupReport" finished-at="2025-09-09T09:38:39 IST" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.opencart.tests.CheckoutTest@710f4dc7]" started-at="2025-09-09T09:38:39 IST" name="setup" finished-at="2025-09-09T09:38:47 IST" duration-ms="7286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opencart.tests.CheckoutTest.testCheckoutProcess()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCheckoutProcess()[pri:3, instance:com.opencart.tests.CheckoutTest@710f4dc7]" started-at="2025-09-09T09:38:47 IST" name="testCheckoutProcess" finished-at="2025-09-09T09:38:47 IST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckoutProcess -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.opencart.tests.CheckoutTest@710f4dc7]" started-at="2025-09-09T09:38:47 IST" name="tearDown" finished-at="2025-09-09T09:38:48 IST" duration-ms="640" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckoutProcess status=SUCCESS method=CheckoutTest.testCheckoutProcess()[pri:3, instance:com.opencart.tests.CheckoutTest@710f4dc7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="flushReport()[pri:0, instance:com.opencart.tests.CheckoutTest@710f4dc7]" started-at="2025-09-09T09:39:12 IST" name="flushReport" finished-at="2025-09-09T09:39:12 IST" duration-ms="413" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- com.opencart.tests.CheckoutTest -->
+      <class name="com.opencart.tests.AddToCartTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.opencart.tests.AddToCartTest@7817fd62]" started-at="2025-09-09T09:38:48 IST" name="setup" finished-at="2025-09-09T09:38:51 IST" duration-ms="3066" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opencart.tests.AddToCartTest.testAddProductToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddProductToCart()[pri:2, instance:com.opencart.tests.AddToCartTest@7817fd62]" started-at="2025-09-09T09:38:51 IST" name="testAddProductToCart" finished-at="2025-09-09T09:38:53 IST" duration-ms="2294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.opencart.tests.AddToCartTest@7817fd62]" started-at="2025-09-09T09:38:53 IST" name="tearDown" finished-at="2025-09-09T09:38:54 IST" duration-ms="779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddProductToCart status=SUCCESS method=AddToCartTest.testAddProductToCart()[pri:2, instance:com.opencart.tests.AddToCartTest@7817fd62] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.tests.AddToCartTest -->
+      <class name="com.opencart.tests.RegisterTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:com.opencart.tests.RegisterTest@8297b3a]" started-at="2025-09-09T09:38:54 IST" name="setup" finished-at="2025-09-09T09:38:57 IST" duration-ms="2559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.opencart.tests.RegisterTest.testRegisterUser()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testRegisterUser()[pri:1, instance:com.opencart.tests.RegisterTest@8297b3a]" started-at="2025-09-09T09:38:57 IST" name="testRegisterUser" finished-at="2025-09-09T09:39:02 IST" duration-ms="5126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterUser -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.opencart.tests.RegisterTest@8297b3a]" started-at="2025-09-09T09:39:02 IST" name="tearDown" finished-at="2025-09-09T09:39:02 IST" duration-ms="214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegisterUser status=SUCCESS method=RegisterTest.testRegisterUser()[pri:1, instance:com.opencart.tests.RegisterTest@8297b3a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.opencart.tests.RegisterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
